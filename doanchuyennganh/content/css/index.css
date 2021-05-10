@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box_slse {
+    height: 432px;
+    width: 100%;
+    border: 1px solid #ff4d00;
+    margin-top: 10%;
+    position: relative;
+}
+
+.box_slse::before {
+    content: ' ';
+    display: block;
+    background: url("../img/gsct.png") no-repeat center center;
+    background-size: 309px 38px;
+    width: 309px;
+    height: 38px;
+    position: absolute;
+    left: 50%;
+    top: -19px;
+    margin-left: -154px;
+    z-index: 9;
+}
+
+
+/* bai code danh muc dt*/
+
+.acritle_item {
+    border: 1px solid rgba(151, 151, 151, 0.3);
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 10%);
+    overflow: hidden;
+    position: relative;
+    height: 380px;
+    margin-top: 15px;
+}
+
+.acritle_item .item_img {
+    height: 250px;
+    overflow: hidden;
+}
+
+.acritle_item .item_img #url_img {
+    width: 94%;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+.acritle_item .item_img #url_img:hover {
+    margin: 5px auto 25px;
+    transition: all .2s ease-in-out;
+}
+
+.acritle_item .title_commnet a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.acritle_item .acritle_price_prod {
+    text-align: center;
+    font-size: 16px;
+    color: red;
+}
+
+div.row .box_lable {
+    max-width: 400px;
+    background: #ec5151;
+    border-radius: 0px 89px 0px 0px;
+    -webkit-border-radius: 0px 89px 0px 0px;
+    -moz-border-radius: 0px 89px 0px 0px;
+    -ms-border-radius: 0px 89px 0px 0px;
+    -o-border-radius: 0px 89px 0px 0px;
+}
+
+div.row .box_lable h3#title_prod_phone {
+    color: #ffffff;
+    padding: 18px;
+}
